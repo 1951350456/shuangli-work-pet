@@ -91,5 +91,18 @@
     "root_cause_confirmed": false,
     "fixed_by_redraw_confirmed": false
   },
-  "notes": "Sanitized artifact QA; host runtime failure remains unconfirmed."
+  "notes": "Sanitized artifact QA; host runtime failure remains unconfirmed.",
+  "local_install": {
+    "format": "native pet.json + same spritesheet.png",
+    "stdlib_only": true,
+    "minimum_python": "3.9",
+    "tests_passed": 4,
+    "installed_bytes_readback": true,
+    "runtime_selection_verified": false,
+    "permanent_offline_verified": false,
+    "cloud_migration_disabled": false,
+    "automatic_cloud_migration_observed": true,
+    "user_selected_named_entry": true,
+    "decision": "Keep Work Pets and retain installer with explicit migration limitation; do not claim permanent offline or runtime fix."
+  }
 }

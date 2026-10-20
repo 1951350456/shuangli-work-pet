@@ -8,17 +8,20 @@
 
 1. 下载或克隆本仓库，直接双击 `index.html`；预览无需网络、API Key 或 Node.js。
 2. 点击动作按钮，切换浅色、深色或透明网格背景；开启“跟随注视”后在角色周围移动鼠标。显示宽度可模拟 Pets 的 80–224 px 范围；“连续切换动作”穿插待机检查转换。
-3. 需要导入 Pets 时，将 `assets/spritesheet.png` 交给具备 Pets 插件的助手，先验证精灵图，再创建自己的宠物。账号内宠物 ID 与启用状态不会随仓库分发。
+3. Mac 本地安装：双击根目录的 `安装本地版.command`，随后在「设置 → Pets」刷新并选择「霜璃（本地版）」。[图文入口](local-install.html) · [完整说明](docs/local-install.md)。
+4. 通过 Pets 插件上传 `assets/spritesheet.png` 则创建账号内的云端宠物，这是另一条加载路径。账号内宠物 ID 与启用状态不会随仓库分发。
 
 也可以在仓库目录运行 `python3 -m http.server 8000`，打开 `http://localhost:8000`。
 
 **这是一套精灵素材与预览工具，不是 macOS 常驻应用。** 实际窗口、缩放、交互及运行性能由 Pets 宿主控制。形象属于用户选择的 ChatGPT 拟人创作，并非 OpenAI 官方角色。
 
+本地安装器使用 Python 3.9+ 标准库，将已验收图片和原生清单写入 `CODEX_HOME/pets/shuangli-local`（默认 `~/.codex/pets/shuangli-local`），不联网。**本次实机测试中，客户端已把「霜璃（本地版）」自动迁移成云端记录，因此该工具尚未实现当前 Work Pets 的永久离线加载，也未证实修复透明消失故障。** 安装器不改写客户端的迁移开关，也不修改当前选择；本次保留 Work Pets 方式和此安装工具，并明确记录限制。
+
 ## Q 版变化
 
 ![同一画格下的旧版与 Q 版](assets/comparison.png)
 
-大头、短身、粗轮廓与简化裙装，优先保证小尺寸下能看清表情。实际大小仍在 Pets 设置中调整。拖动、挥手、跳跃时消失或发白的问题尚未在宿主中复现，不能宣称换图已根治；检查结果与对照方法见 [显示异常说明](docs/display-troubleshooting.md)。
+大头、短身、粗轮廓与简化裙装，优先保证小尺寸下能看清表情。实际大小仍在 Pets 设置中调整。拖动、挥手、跳跃时下半身透明消失的问题尚未在宿主中复现，不能宣称换图已根治；检查结果与对照方法见 [显示异常说明](docs/display-troubleshooting.md)。
 
 ## 动画规格
 
@@ -42,6 +45,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python scripts/validate.py
 python scripts/render.py
+python -m unittest discover -s tests -v
 ```
 
 Windows 激活虚拟环境可使用 `.venv\Scripts\activate`。
