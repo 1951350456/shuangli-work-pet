@@ -1,0 +1,90 @@
+{
+  "creation_date": "2026-10-20",
+  "atlas_sha256": "adbb30da3ebbcd382917e7db620970c5ad4c393d51d30c98274739f5959e6cdf",
+  "format": {
+    "width": 1536,
+    "height": 2288,
+    "required_frames": 73,
+    "rows": 11,
+    "cell": [
+      192,
+      208
+    ]
+  },
+  "creation_time_checks": {
+    "bundled_atlas_validation": true,
+    "bundled_quality_gate": true,
+    "pets_service_validation": true,
+    "visual_standard_row_review": true,
+    "three_independent_direction_reviewers": true,
+    "cardinal_blind_disagreement": false
+  },
+  "jump": {
+    "idle_baseline": 203,
+    "jump_baselines": [
+      203,
+      196,
+      169,
+      196,
+      203
+    ],
+    "airborne_lift_pixels": 34,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      95.5,
+      94.0,
+      95.5,
+      94.5,
+      95.0,
+      94.5,
+      94.5,
+      96.5,
+      97.0,
+      97.0,
+      97.5,
+      97.5,
+      99.0,
+      98.5,
+      98.0,
+      97.5
+    ],
+    "look_widths": [
+      111,
+      112,
+      111,
+      111,
+      110,
+      111,
+      111,
+      111,
+      114,
+      112,
+      111,
+      111,
+      110,
+      111,
+      110,
+      115
+    ],
+    "maximum_center_drift_pixels": 3.5,
+    "maximum_width_ratio": 1.0454545454545454
+  },
+  "reviewed_warnings": [
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 292.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "090->112.5 diff is a local outlier (1650 pixels vs neighbor average 1055)",
+    "247.5->270 diff is a local outlier (1591 pixels vs neighbor average 1074)"
+  ],
+  "blind_review_warnings": [
+    "horizontal-1 B horizontal axis is ambiguous",
+    "horizontal-7 B horizontal axis is ambiguous"
+  ],
+  "notes": "This is a sanitized creation-time summary, not a replacement for visual review after edits."
+}
