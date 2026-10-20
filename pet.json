@@ -1,7 +1,7 @@
 {
   "name": "gpt龙娘",
   "slug": "gpt-dragon-girl",
-  "description": "白发紫瞳、大龙角、淡紫龙翼、合身白裙和结形发饰的 Q 版 gpt龙娘",
+  "description": "D 版白发紫瞳龙娘，粗紫色轮廓、简洁白裙；微笑张臂跳跃抱抱。",
   "schema_version": 2,
   "atlas": "assets/spritesheet.png",
   "width": 1536,
@@ -168,6 +168,6 @@
     315.0,
     337.5
   ],
-  "sha256": "c36b81113d4c1b75ee4e0a0e4a5befb36b0a93f30b1f41a77f412aba24cfa385",
-  "art_revision": "gpt-dragon-user-approved-2026-10-20"
+  "sha256": "be0076ade56d839f061bfcc89065f0940d38cee5d63e2997cc05d35bcc9af68f",
+  "art_revision": "D-bold-clear-smiling-hug-2026-10-20"
 }

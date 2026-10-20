@@ -1,7 +1,7 @@
 {
   "creation_date": "2026-10-20",
-  "art_revision": "gpt-dragon-user-approved-2026-10-20",
-  "atlas_sha256": "c36b81113d4c1b75ee4e0a0e4a5befb36b0a93f30b1f41a77f412aba24cfa385",
+  "art_revision": "D-bold-clear-smiling-hug-2026-10-20",
+  "atlas_sha256": "be0076ade56d839f061bfcc89065f0940d38cee5d63e2997cc05d35bcc9af68f",
   "format": {
     "width": 1536,
     "height": 2288,
@@ -21,63 +21,64 @@
     "cardinal_blind_disagreement": false
   },
   "jump": {
-    "idle_baseline": 201,
+    "idle_baseline": 203,
     "jump_baselines": [
-      200,
-      194,
-      171,
-      199,
-      200
+      203,
+      203,
+      172,
+      196,
+      203
     ],
-    "airborne_lift_pixels": 29,
-    "landing_delta_pixels": 1
+    "airborne_lift_pixels": 31,
+    "landing_delta_pixels": 0
   },
   "look_registration": {
-    "neutral_center_x": 96.0,
+    "neutral_center_x": 95.0,
     "look_centers_x": [
-      99.5,
-      100.0,
-      99.5,
-      99.0,
-      99.5,
-      98.5,
-      98.5,
-      98.5,
-      99.5,
-      100.5,
-      99.5,
-      100.5,
-      100.5,
-      99.5,
-      99.5,
-      99.5
+      95.5,
+      95.0,
+      94.0,
+      95.0,
+      94.5,
+      95.5,
+      95.0,
+      94.5,
+      95.5,
+      94.5,
+      94.5,
+      95.5,
+      95.0,
+      95.0,
+      94.5,
+      95.0
     ],
     "look_widths": [
-      107,
-      104,
-      103,
-      104,
-      105,
-      105,
-      105,
-      105,
-      107,
-      105,
-      105,
-      105,
-      105,
-      105,
-      105,
-      105
+      135,
+      132,
+      132,
+      132,
+      131,
+      131,
+      132,
+      131,
+      135,
+      131,
+      131,
+      131,
+      130,
+      130,
+      131,
+      130
     ],
-    "maximum_center_drift_pixels": 4.5,
-    "maximum_width_ratio": 1.0388349514563107
+    "maximum_center_drift_pixels": 1.0,
+    "maximum_width_ratio": 1.0384615384615385
   },
   "reviewed_warnings": [
-    "look direction 067.5 accepted with a reviewed warning",
-    "look direction 135 accepted with a reviewed warning",
-    "look direction 157.5 accepted with a reviewed warning",
-    "look direction 202.5 accepted with a reviewed warning"
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 225 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "000 has transparent interior hole rows (y=23)",
+    "180 has transparent interior hole rows (y=23, y=24, y=25, y=26, +1 more)"
   ],
   "blind_review_warnings": [],
   "runtime_display_report": {
@@ -102,7 +103,7 @@
       "active_selection_type_verified": true
     }
   },
-  "notes": "Artwork revision only. Existing host loading/transparency defect is not claimed fixed.",
+  "notes": "D artwork and browser preview update. Host loading/transparency fault is not claimed fixed. Original app and installed native folder untouched.",
   "local_install": {
     "format": "native pet.json + same spritesheet.png",
     "stdlib_only": true,
@@ -117,11 +118,12 @@
     "decision": "Keep Work Pets installer with explicit limitation: deployment directory correct, current selection migrated to cloud, loading failure persists."
   },
   "approved_design": {
-    "source": "explicit user selection of detailed first chibi design",
-    "further_simplification": false,
-    "left_movement_mirrored": false
+    "source": "explicit user selection of D concept",
+    "style": "bold dark-plum contour, simplified flat white/lavender shapes",
+    "left_movement_mirrored": false,
+    "jumping": "smiling, both arms spread in a welcoming airborne hug"
   },
-  "blind_review_note": "Three isolated reviewers; strict majority passed all 28 axis decisions. One reviewer marked 202.5 horizontal cue ambiguous; retained as a reviewed intermediate warning, cardinals unanimous.",
+  "blind_review_note": "Three isolated reviewers, strict per-axis majority; final reports retained locally.",
   "cloud_artwork_update": {
     "same_existing_pet": true,
     "active_selection_preserved": true,
@@ -132,5 +134,24 @@
     "pillow_version": "12.3.0",
     "context7_library_id": "/python-pillow/pillow/12.3.0",
     "source": "https://github.com/python-pillow/Pillow/blob/12.3.0/docs/handbook/image-file-formats.rst"
+  },
+  "registration": {
+    "objective": "largest common integer reference height, then baseline closest to202",
+    "height_search": [
+      128,
+      204
+    ],
+    "baseline_search": [
+      190,
+      206
+    ],
+    "chosen_height": 183,
+    "chosen_baseline": 203,
+    "constraints": "all A>16 pixels x>=2,x<=190,y>=2,y<=206; no per-frame scaling or recentering"
+  },
+  "preview_hover": {
+    "trigger": "pointer enters the preview character",
+    "action": "one smiling jump-hug, then return to prior action",
+    "host_trigger_controlled_by_this_project": false
   }
 }
