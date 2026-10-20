@@ -93,16 +93,20 @@
     "user_comparison": {
       "date": "2026-10-20",
       "source": "user-reported same-Mac comparison",
-      "local_named_entry_transparency_observed": false,
+      "local_named_entry_transparency_observed": null,
       "original_cloud_entry_transparency_observed": true,
       "test_duration_recorded": false,
       "restart_test_recorded": false,
       "offline_test_recorded": false,
       "active_render_source_verified": false,
-      "long_term_resolution_verified": false
+      "long_term_resolution_verified": false,
+      "latest_local_entry_load_failure_reported": true,
+      "earlier_no_failure_was_temporary": true,
+      "active_selection_type": "migrated cloud pet",
+      "active_selection_type_verified": true
     }
   },
-  "notes": "Sanitized artifact QA; user reports local installation improves transparency compared with original cloud entry. Root cause and permanent offline rendering remain unverified.",
+  "notes": "Latest user retest reports local-named entry still fails to load. Active account selection is migrated cloud pet; host defect remains unresolved.",
   "local_install": {
     "format": "native pet.json + same spritesheet.png",
     "stdlib_only": true,
@@ -114,6 +118,6 @@
     "cloud_migration_disabled": false,
     "automatic_cloud_migration_observed": true,
     "user_selected_named_entry": true,
-    "decision": "Keep Work Pets and the local installer: user-reported improvement observed; cloud record creation does not establish active render source; permanent offline remains unverified."
+    "decision": "Keep Work Pets installer with explicit limitation: deployment directory correct, current selection migrated to cloud, loading failure persists."
   }
 }
