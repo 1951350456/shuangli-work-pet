@@ -1,6 +1,7 @@
 {
   "creation_date": "2026-10-20",
-  "atlas_sha256": "adbb30da3ebbcd382917e7db620970c5ad4c393d51d30c98274739f5959e6cdf",
+  "art_revision": "chibi-2026-10-20",
+  "atlas_sha256": "583ba2428b326379e154e8a1fb7a91a57cd5cd2f7e2545fb06c61a19082421b7",
   "format": {
     "width": 1536,
     "height": 2288,
@@ -20,71 +21,75 @@
     "cardinal_blind_disagreement": false
   },
   "jump": {
-    "idle_baseline": 203,
+    "idle_baseline": 202,
     "jump_baselines": [
-      203,
-      196,
-      169,
-      196,
-      203
+      201,
+      192,
+      181,
+      197,
+      201
     ],
-    "airborne_lift_pixels": 34,
-    "landing_delta_pixels": 0
+    "airborne_lift_pixels": 20,
+    "landing_delta_pixels": 1
   },
   "look_registration": {
     "neutral_center_x": 95.5,
     "look_centers_x": [
-      95.5,
+      97.0,
+      95.0,
       94.0,
-      95.5,
-      94.5,
       95.0,
       94.5,
+      93.5,
+      94.0,
+      95.0,
       94.5,
-      96.5,
+      95.0,
+      94.0,
       97.0,
-      97.0,
-      97.5,
-      97.5,
-      99.0,
       98.5,
+      99.5,
       98.0,
-      97.5
+      98.0
     ],
     "look_widths": [
-      111,
-      112,
-      111,
-      111,
-      110,
-      111,
-      111,
-      111,
-      114,
-      112,
-      111,
-      111,
-      110,
-      111,
-      110,
-      115
+      138,
+      132,
+      132,
+      130,
+      131,
+      131,
+      134,
+      134,
+      131,
+      122,
+      122,
+      122,
+      119,
+      123,
+      130,
+      130
     ],
-    "maximum_center_drift_pixels": 3.5,
-    "maximum_width_ratio": 1.0454545454545454
+    "maximum_center_drift_pixels": 4.0,
+    "maximum_width_ratio": 1.1596638655462186
   },
   "reviewed_warnings": [
     "look direction 067.5 accepted with a reviewed warning",
-    "look direction 157.5 accepted with a reviewed warning",
-    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 112.5 accepted with a reviewed warning",
     "look direction 247.5 accepted with a reviewed warning",
     "look direction 292.5 accepted with a reviewed warning",
     "look direction 337.5 accepted with a reviewed warning",
-    "090->112.5 diff is a local outlier (1650 pixels vs neighbor average 1055)",
-    "247.5->270 diff is a local outlier (1591 pixels vs neighbor average 1074)"
+    "000 has transparent interior hole rows (y=37)",
+    "270->292.5 diff is a local outlier (2818 pixels vs neighbor average 1516)",
+    "337.5->000 diff is a local outlier (3544 pixels vs neighbor average 1684)"
   ],
-  "blind_review_warnings": [
-    "horizontal-1 B horizontal axis is ambiguous",
-    "horizontal-7 B horizontal axis is ambiguous"
-  ],
-  "notes": "This is a sanitized creation-time summary, not a replacement for visual review after edits."
+  "blind_review_warnings": [],
+  "runtime_display_report": {
+    "trigger": "dragging, waving, jumping",
+    "old_download_structural_validation": true,
+    "reproduced_in_host": false,
+    "root_cause_confirmed": false,
+    "fixed_by_redraw_confirmed": false
+  },
+  "notes": "Sanitized artifact QA; host runtime failure remains unconfirmed."
 }

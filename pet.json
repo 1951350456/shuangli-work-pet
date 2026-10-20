@@ -1,7 +1,7 @@
 {
   "name": "霜璃",
   "slug": "shuangli",
-  "description": "白发淡紫瞳的 ChatGPT 拟人小龙娘",
+  "description": "白发淡紫瞳、大头短身的 Q 版龙娘",
   "schema_version": 2,
   "atlas": "assets/spritesheet.png",
   "width": 1536,
@@ -168,5 +168,6 @@
     315.0,
     337.5
   ],
-  "sha256": "adbb30da3ebbcd382917e7db620970c5ad4c393d51d30c98274739f5959e6cdf"
+  "sha256": "583ba2428b326379e154e8a1fb7a91a57cd5cd2f7e2545fb06c61a19082421b7",
+  "art_revision": "chibi-2026-10-20"
 }
