@@ -1,7 +1,7 @@
 {
-  "name": "霜璃",
-  "slug": "shuangli",
-  "description": "白发淡紫瞳、大头短身的 Q 版龙娘",
+  "name": "gpt龙娘",
+  "slug": "gpt-dragon-girl",
+  "description": "白发紫瞳、大龙角、淡紫龙翼、合身白裙和结形发饰的 Q 版 gpt龙娘",
   "schema_version": 2,
   "atlas": "assets/spritesheet.png",
   "width": 1536,
@@ -168,6 +168,6 @@
     315.0,
     337.5
   ],
-  "sha256": "583ba2428b326379e154e8a1fb7a91a57cd5cd2f7e2545fb06c61a19082421b7",
-  "art_revision": "chibi-2026-10-20"
+  "sha256": "c36b81113d4c1b75ee4e0a0e4a5befb36b0a93f30b1f41a77f412aba24cfa385",
+  "art_revision": "gpt-dragon-user-approved-2026-10-20"
 }

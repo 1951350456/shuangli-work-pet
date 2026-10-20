@@ -23,3 +23,7 @@
 - Pillow 官方文档：https://pillow.readthedocs.io/en/stable/
 - GIF 保存参考：https://github.com/python-pillow/Pillow/blob/12.3.0/docs/handbook/image-file-formats.rst
 - 可选 MP4 导出工具 FFmpeg：https://ffmpeg.org/ffmpeg-all.html 。制作时使用 7.1；本仓库不捆绑其二进制。
+
+## 本轮选定设计
+
+用户提供了白发龙娘参考图，并明确选定生成的第一张详细 Q 版，要求保留 OpenAI 结形发饰及服装装饰。本仓库发布生成图集、生成主形象与预览，不包含用户提供的原始参考图。结形标志作为用户要求的角色装饰使用，不表示官方角色或背书。
